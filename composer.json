@@ -1,0 +1,11 @@
+{
+    "name": "multimedia2017",
+    "description": "Web accesible para Multimedia URJC 2017",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "grupo6",
+            "email": "multimediaurjc2017@gmail.com"
+        }
+    ]
+}
