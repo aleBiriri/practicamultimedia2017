@@ -1,14 +1,7 @@
-/* 
 
-Fantasy Template
-
-http://www.templatemo.com/tm-393-fantasy
-
-*/
 
 body { 
 	font-family: Helvetica, sans-serif; background: #ddd; overflow-x: hidden; 
-	/*carasmo's comment https://github.com/twbs/bootstrap/issues/10711*/ 
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; margin-bottom: 20px; }

@@ -1,4 +1,3 @@
-/* modified by templatemo.com */
 
 body {
   padding-top: 20px;
@@ -22,13 +21,6 @@ body {
   padding: 14px 24px;
 }
 
-/* Customize the nav-justified links to be fill the entire space of the .navbar */
-
-.nav-justified {
-/*  background-color: #eee;*/
-/*  border-radius: 5px;*/
-  /*border: 1px solid #ccc;*/
-}
 .nav-justified > li > a {
   margin-bottom: 0;
   padding-top: 15px;
@@ -55,12 +47,6 @@ body {
   box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
 }
 
-/*
-.nav-justified > li:first-child > a {
-  border-radius: 5px 5px 0 0;
-}
-*/
-
 .nav-justified > li:last-child > a {
   border-bottom: 1px solid #D86E6E;
 }
@@ -75,17 +61,13 @@ body {
   }
   .nav-justified > li:first-child > a {
     border-left: 0;
-   /* border-radius: 5px 0 0 5px;*/
   }
   .nav-justified > li:last-child > a {
-   /* border-radius: 0 5px 5px 0;*/
     border-right: 0;
   }
 }
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
   .masthead,
   .marketing,
   .footer {
