@@ -67,7 +67,7 @@ footer a:hover { color: #FFFF00; }
 .left { float: left }
 .right { float: right }
 
-.credit { padding: 10px 0px; background: #B10021; }
+.credit { padding: 15px 0px; background: #B10021; }
 
 #other_downloads { max-width: 920px; margin: 0 auto; }
 #other_downloads h3 { padding-left: 20px; padding-bottom: 10px; }
