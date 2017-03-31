@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; margin-bottom: 20px; }
 
-.templatemo-logo { margin: 12px; }
+.class-logo { margin: 12px; }
 
 .thumbnail { border-radius: 0px; display: inline-block;	-webkit-transition: none; transition: none; }
 
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; margin-bottom: 20px; }
 .btn-primary:hover, .btn-primary:focus { background-color: #752201; border-color: #81061D; }
 
 .navbar { border: none; }
-.navbar.templatemo-mobile-menu {
+.navbar.class-mobile-menu {
 	position: fixed;
 	top: 29px;
 	right: 2px;
@@ -107,19 +107,19 @@ footer a:hover { color: #FFFF00; }
 @media only screen and (max-width: 480px) {
 	h2 { margin-bottom: 5px; }
 	.navbar-form { margin-top: 0px; width: 100%; }
-	.templatemo-nav { position: fixed; top: 25px; right: 3px; z-index: 1000; }
+	.class-nav { position: fixed; top: 25px; right: 3px; z-index: 1000; }
 	.nav-justified > li > a { padding-left: 40px; padding-right: 40px; }
 	#thumbnails_container { margin-left: 10px; margin-right: 10px; padding-left: 5px; padding-right: 5px; }	
 	#thumbnails_container .col-xs-4, #thumbnails_container .col-sm-3, #thumbnails_container .col-md-3 { padding-left: 5px; padding-right: 5px; }	
 	.section_box { height: auto; width: 100%; max-width: none; min-height: 1px; }
-	#templatemo_footer { margin-bottom: 5px; }
+	#class_footer { margin-bottom: 5px; }
 }
 
 /* tablet styles */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	h2 { margin-bottom: 5px; }
 	.navbar-form { margin-top: 0px; width: 100%; }
-	.templatemo-nav { position: fixed; top: 25px; right: 3px; z-index: 1000; }
+	.class-nav { position: fixed; top: 25px; right: 3px; z-index: 1000; }
 	.nav-justified > li > a { padding-left: 40px; padding-right: 40px; }
 	#thumbnails_container { margin-left: 20px; margin-right: 20px; padding-left: 5px; padding-right: 5px; }	
 	#thumbnails_container .col-xs-4, #thumbnails_container .col-sm-3, #thumbnails_container .col-md-3 { padding-left: 10px; padding-right: 10px; }
@@ -128,7 +128,7 @@ footer a:hover { color: #FFFF00; }
 	.footer_item { margin-right: 10px; }
 	.footer_item:last-child { margin-right: 0px; }
 	.section_box { height: auto; width: 100%; max-width: none; min-height: 1px; }
-	#templatemo_footer { margin-bottom: 5px; }
+	#class_footer { margin-bottom: 5px; }
 }
 
 /* desktop styles */
