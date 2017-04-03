@@ -103,6 +103,33 @@ footer a:hover { color: #FFFF00; }
 
 .cleaner { clear: both }
 
+label.select-postcard > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+label.select-postcard > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+label.select-postcard > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+
+#message, #input_message{
+	resize: vertical;
+}
+
+div#activity{
+	margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #F8F5F5;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
 /* mobile styles */
 @media only screen and (max-width: 480px) {
 	h2 { margin-bottom: 5px; }

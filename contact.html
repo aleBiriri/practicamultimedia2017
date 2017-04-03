@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="description" content="Contact page" />
+	<meta name="keywords" content="contact, castillo, plasencia, extremadura"/>
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
-	<title><!-- ***Titulo--></title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+	<title>Contact us</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/justified-nav.css" rel="stylesheet" type="text/css">
 	<link href="css/general-style.css" rel="stylesheet" type="text/css">
@@ -17,13 +17,13 @@
 		<div class="container" id="home">
 			<div class="header">
 				<a href="#">
-					<!-- ***Logo --><img src="***" alt="logo del Castillo" class="class-logo">
+					<!-- ***Logo --><img src="***" alt="logo***" class="class-logo">
 				</a>
       		<form  action="#" method="get" class="navbar-form pull-right" role="search">
       				<div class="form-group">
-      					<input type="text" class="form-control" placeholder="texto a buscar..." id="keyword" name="keyword">
+      					<input type="text" class="form-control" placeholder="Your text" id="keyword" name="keyword">
       				</div>
-      				<button type="submit" class="btn btn-default" name="buscar">Buscar</button>
+      				<button type="submit" class="btn btn-default" name="search">Search...</button>
       			</form>
 			</div>
 			<!-- *** Imagen Portada --><img src="images/pueblo-header.jpg" alt="header image" class="class-header-img img-responsive cleaner">
@@ -38,45 +38,44 @@
 		        </div>
       			<div class="navbar-collapse collapse">
 			        <ul class="nav nav-justified">
-			          <li><a href="index.html">Home</a></li>
-	                  <li ><a href="about.html">¿Quienes Somos?</a></li>
-			          <li><a href="place.html">¿Dónde estamos?</a></li>
-			          <li><a href="postal.html">Enviar postal</a></li>
-			          <li class="active"><a href="contact.html">Contacto</a></li>
+			   <li><a href="index.html">Home</a></li>
+	                  <li><a href="about.html">About us</a></li>
+					    <li><a href="activities.html">Activities</a></li>
+			          <li><a href="place.html">Location</a></li>
+			          <li><a href="postal.html">Send a postcard</a></li>
+			          <li class="active"><a href="contact.html">Contact</a></li>
 			        </ul>
 		      	</div> 
 	      	</div>
 			<div class="row" id="thumbnails_container">
 				<div class="col-md-12">
-					<h2>Contact Information</h2>
-					<p>Vivamus sed adipiscing felis, non molestie velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum auctor justo eu nibh pharetra, nec rhoncus justo tincidunt. Donec ut ipsum ac erat vehicula volutpat sed sed enim. Nunc varius luctus tellus, ac vulputate purus cursus vitae. Maecenas orci justo, volutpat quis tincidunt id, lacinia nec massa. Curabitur sollicitudin velit sit amet nisi dictum scelerisque. Vivamus at rutrum lectus. Etiam ut velit eget nulla feugiat accumsan.</p>
-                    <h3>Contact Form</h3>
-                  <p>You may leave us a message for any kind of business matter or personal greeting. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>. </p>
+					 <h2>Contact Form</h2>
+                  <p>You may leave us a message for any kind of business matter or personal greeting. Usually we'll answer in 1 or 2 days. </p>
 				</div>
-			</div>
-			<form action="#" method="post" id="contact_form" role="form">
+			<form action="#" method="post" id="contact_form">
 				<div class="row">
 					<div class="col-md-5">
 						<div class="form-group left-inner-addon">
-							<span class="glyphicon glyphicon-user"></span>
+							<label for="input_name">Name</label>	
 							<input name="name" type="text" class="form-control" id="input_name" placeholder="Name">
 						</div>
 						<div class="form-group left-inner-addon">
-							<span class="glyphicon glyphicon-envelope"></span>
+							<label for="input_email">E-mail</label>						
 							<input name="email" type="email" class="form-control" id="input_email" placeholder="Email">
 						</div>
 						<div class="form-group left-inner-addon">
-							<span class="glyphicon glyphicon-earphone"></span>
+							<label for="input_tel">Phone</label>	
 							<input name="phone" type="tel" class="form-control" id="input_tel" placeholder="Phone">
 						</div>
 					</div> 
 					<div class="col-md-7">
 						<div class="form-group left-inner-addon">
-							<span class="glyphicon glyphicon-comment"></span>
+							<label for="input_message">Message</label>	
 						  	<textarea name="message" rows="6" class="form-control" id="input_message" placeholder="Message..."></textarea><br>
-							<button type="submit" class="btn btn-primary">Send</button>
-							<button type="reset" class="btn btn-default right">Reset</button>
+							<button type="submit" class="btn btn-primary right" value="submit">Send</button>
+							<button type="reset" class="btn btn-default right" value="Reset">Reset</button>
 						</div>
+					</div>
 					</div>
 				</div> <!-- row -->
 			</form>		
@@ -93,9 +92,9 @@
 				<div class="col-md-3">
 					<div style="text-align: left">
 						<a rel="nofollow" href="***" target="_parent">
-                        	<img src="images/facebook.png" alt="Síguenos Facebook">
+                        	<img src="images/facebook.png" alt="Follow us on Facebook">
                         </a>
-						<a rel="nofollow" href="***"><img src="images/twitter.png" alt="Síguenos en Twitter"></a>
+						<a rel="nofollow" href="***"><img src="images/twitter.png" alt="Follow us on Twitter"></a>
 						<a rel="nofollow" href="***"><img src="images/rss.png" alt="RSS feeds"></a>
 					</div>
 				</div>				
