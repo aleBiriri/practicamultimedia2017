@@ -1,3 +1,10 @@
+/* COLORES:
+
+497b25 Verde oscuro
+76b349 Verde Oscurecido
+89be5c Verde base
+
+ */
 
 body {
   padding-top: 20px;
@@ -21,6 +28,9 @@ body {
   padding: 14px 24px;
 }
 
+.nav-justified > li{
+  cursor: pointer;}
+
 .nav-justified > li > a {
   margin-bottom: 0;
   padding-top: 15px;
@@ -28,27 +38,18 @@ body {
   color: #777;
   font-weight: bold;
   text-align: center;
-  border-bottom: 1px solid #D86E6E;
-  background-color: #e5e5e5; /* Old browsers */
-  background-repeat: repeat-x; /* Repeat the gradient */
-  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%); /* FF3.6+ */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
-  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Chrome 10+,Safari 5.1+ */
-  background-image: -o-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Opera 11.10+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
-  background-image: linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* W3C */
+  background-color: #497b25; /* Old browsers */
 }
 .nav-justified > .active > a,
 .nav-justified > .active > a:hover,
 .nav-justified > .active > a:focus {
   color: white;
-  background: #6F0015;
+  background: #76b349;
   background-image: none;
   box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
 }
 
 .nav-justified > li:last-child > a {
-  border-bottom: 1px solid #D86E6E;
 }
 
 @media (min-width: 768px) {
@@ -56,8 +57,7 @@ body {
     max-height: 52px;
   }
   .nav-justified > li > a {
-    border-left: 1px solid #D86E6E;
-    border-right: 1px solid #620011;
+    border-right: 1px solid #76b349;
   }
   .nav-justified > li:first-child > a {
     border-left: 0;
