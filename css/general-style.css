@@ -136,8 +136,10 @@ div#activity{
 	color: #89be5c;
 }
 
-.button-list:focus{
-	border:0px;
+
+
+.button-list:focus {
+outline:0px;
 }
 
 /* mobile styles */
