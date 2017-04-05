@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Contact page" />
-	<meta name="keywords" content="contact, castillo, plasencia, extremadura"/>
+	<meta name="description" content="home page" />
+	<meta name="keywords" content="castillo, plasencia, extremadura"/>
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
-	<title>Contact us</title>
+	<title>Home</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/justified-nav.css" rel="stylesheet" type="text/css">
 	<link href="css/general-style.css" rel="stylesheet" type="text/css">
-
 </head>
 <body>
 	<div id="main_container">
@@ -28,7 +27,7 @@
 					<button type="submit" class="btn btn-default" name="search">Buscar</button>
 				</form>
 			</div>
-			<!-- *** Imagen Portada --><img src="images/pueblo-header.jpg" alt="header image" class="class-header-img img-responsive cleaner">
+			<img src="images/pueblo-header.jpg" alt="header image" class="class-header-img img-responsive cleaner">
 			<div class="navbar class-nav" id="navbar">
 				<div class="navbar-header">		          	
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,50 +42,37 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="town.html">The Town</a></li>
 						<li><a href="activities.html">Activities</a></li>
-						<li><a href="postcard.html">Postcard</a></li>
-						<li class="active"><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="place.html">Gallery</a></li>
+						<li><a href="postcard.html">Postcard</a></li> 
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div> 
 			</div>
-			<div class="row" id="thumbnails_container">
-				<div class="col-md-12">
-					<h2>Contact Form</h2>
-					<p>You may leave us a message for any kind of business matter or personal greeting. Usually we'll answer in 1 or 2 days. </p>
+			<div id="thumbnails_container">
+
+				<h1> Gallery </h1>
+
+				<!-- ***Primera fila de fotos -->
+				<div class="row">
+					<div class="col-xs-6 col-sm-4 col-md-4"><a href="***" class="thumbnail"><img src="images/piscina-natural.jpg" alt="Piscina natural. Es un río" class="img-responsive"><p><!-- *** Texto foto--> Piscina natural cerca del pueblo</p></a></div>
+					<div class="col-xs-6 col-sm-4 col-md-4"><a href="***" class="thumbnail"><img  src="images/paisaje-cascada-arbol.jpg" alt="Pequeña cascada en el interior de un verde bosque." class="img-responsive"><p>Bellos paisajes<!-- *** Texto foto--></p></a></div>
+					<div class="col-xs-6 col-sm-4 col-md-4"><a href="***" class="thumbnail"><img src="images/puente.jpg" alt="Foto tomada a ras del río, con un viejo puento de fondo." class="img-responsive"><p><!-- *** Texto foto-->Bellas vistas</p></a></div>
 				</div>
-				<form action="#" method="post" id="contact_form">
-					<div class="row">
-						<div class="col-md-5">
-							<div class="form-group left-inner-addon">
-								<label for="input_name">Name</label>	
-								<input name="name" type="text" class="form-control" id="input_name" placeholder="Name">
-							</div>
-							<div class="form-group left-inner-addon">
-								<label for="input_email">E-mail</label>						
-								<input name="email" type="email" class="form-control" id="input_email" placeholder="Email">
-							</div>
-							<div class="form-group left-inner-addon">
-								<label for="input_tel">Phone</label>	
-								<input name="phone" type="tel" class="form-control" id="input_tel" placeholder="Phone">
-							</div>
-						</div> 
-						<div class="col-md-7">
-							<div class="form-group left-inner-addon">
-								<label for="input_message">Message</label>	
-								<textarea name="message" rows="6" class="form-control" id="input_message" placeholder="Message..."></textarea><br>
-								<button type="submit" class="btn btn-primary right" value="submit">Send</button>
-								<button type="reset" class="btn btn-default right" value="Reset">Reset</button>
-							</div>
-						</div>
-					</div>
-				</div> <!-- row -->
-			</form>		
+				<!-- ***Segunda fila de fotos -->
+				<div class="row">
+					<div class="col-xs-6 col-sm-4 col-md-4"><a href="***" class="thumbnail"><img src="images/terraza.jpg" alt="Terraza típica del pueblo" class="img-responsive"><p>Terraza típica del pueblo<!-- *** Texto foto--></p></a></div>
+					<div class="col-xs-6 col-sm-4 col-md-4"><a href="***" class="thumbnail"><img src="images/rio-con-islote.jpg" alt="Cauce del río. Tiene un islote lleno de árboles en el centro." class="img-responsive"><p>Naturaleza en su esplendor<!-- *** Texto foto--></p></a></div>
+					<div class="col-xs-6 col-sm-4 col-md-4"><a href="***" class="thumbnail"><img src="images/fachada.jpg" alt="Fachada típica de las casas del pueblo." class="img-responsive"><p><!-- *** Texto foto-->Comodidad y tranquilidad</p></a></div>	
+				</div>
+
+			</div> <!-- thumbnail area -->  
 		</div>
 		<!-- Pie de página -->
 		<footer class="container">
 			<div class="credit row">
 				<div class="col-md-6 col-md-offset-3">
 					<div id="class_footer">
-						<a href="#"><!-- ***Nombre del lugar --></a>Copyright © 2017
+						<a href="#"><!-- ***Nombre del lugar -->Castillo de Hurdes</a>Copyright © 2017
 					</div>
 				</div>
 				<!-- ***Redes sociales -->
