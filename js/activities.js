@@ -1,4 +1,4 @@
-		var activities = ['activity1','activity2','activity3','activity4','activity5'];
+		var activities = ['activity0','activity1','activity2','activity3','activity4','activity5'];
 
 		function loadActivity(id){
 			for(var i=0; i<activities.length; i++){
@@ -10,4 +10,4 @@
 			document.getElementById("_"+id).style.color = "#497b25";
 		}
 
-		window.onload = loadActivity("activity1");
+		window.onload = loadActivity("activity0");
