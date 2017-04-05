@@ -45,6 +45,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="town.html">The Town</a></li>
 						<li class="active"><a href="activities.html">Activities</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="postcard.html">Postcard</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
@@ -56,65 +57,87 @@
 					<div class="preview_footer_container">				
 
 						<div class="footer_item section_box col-xs-12 col-sm-4 col-md-12">
-							<!-- *** -->
 							<h3>Select an activity</h3>
 							<h4>Castillo</h4>
 							<ul class="sidebar_menu">
-								<li><a onclick="loadActivity(1)">Swim or walk</a></li>
+							<!--***	<li><a onclick="loadActivity('activity1')">Swim or walk</a></li> -->
+								<li><input id="_activity1"  class="button-list" type="button" value="Swim or walk" onclick="loadActivity('activity1')" ></li>
 							</ul>
 							<h4>Plasencia</h4>
 							<ul class="sidebar_menu">
-								<li><a onclick="loadActivity(2)">Parque de la isla</a></li>
-								<li><a onclick="loadActivity(3)">Ermita de la virgen del puerto</a></li>
-								<li><a onclick="loadActivity(4)">A track in Valcorchero</a></li>
-								<li><a onclick="loadActivity(5)">La Chopera</a></li>
+								<li><input id="_activity2" class="button-list" type="button" value="Parque de la isla" onclick="loadActivity('activity2')" ></li>
+								<li><input id="_activity3" class="button-list" type="button" value="Ermita de la virgen del puerto" onclick="loadActivity('activity3')" ></li>
+								<li><input id="_activity4" class="button-list" type="button" value="A track in Valcorchero" onclick="loadActivity('activity4')" ></li>
+								<li><input id="_activity5" class="button-list" type="button" value="La Chopera" onclick="loadActivity('activity5')" ></li>
+								<!-- *** <li onclick="loadActivity('activity2')"><a>Parque de la isla</a></li>
+								<li><a onclick="loadActivity('activity3')">Ermita de la virgen del puerto</a></li>
+								<li><a onclick="loadActivity('activity4')">A track in Valcorchero</a></li>
+								<li><a onclick="loadActivity('activity5')">La Chopera</a></li> -->
 							</ul>
 						</div>	                       
 					</div> 
 
 				</div>
-				<div class="col-md-9">
 
-					<h3 id="title-activity"><!--Titulo de la actividad --> Activity</h3>
-					<!-- *** -->
-					<div id="activity">
-						<p id="data-activity">In Castillo you can swim in the river or go walking in the wild forests.</p>
-						<img center style="margin:auto;" id="img-activity" src="images/el-chorrito.jpg" 
+				<!-- activity 1 -->
+				<div id="activity1"  class="col-md-9">
+
+					<h3>Swim or walk</h3>
+					<div>
+						<p>In Castillo you can swim in the river or go walking in the wild forests.</p>
+						<img center style="margin:auto;" src="images/el-chorrito.jpg" 
 						alt="activity image" class="img-responsive" >
 					</div>
 
 				</div>
+				<!-- activity 2 -->
+				<div id="activity2"  class="col-md-9">
+
+					<h3>Parque de la isla</h3>
+					<div>
+						<p>Visit  The Island’s park in Plasencia. Near the Jerte there is a beautiful park. In summer it is  mild tempered because of the high trees and  the river. Here you can swim in a free swimming pool in the river’s water. You have a couple of places to have a drink or some food if you want.</p>
+						<img center style="margin:auto;" src="images/plasencia-isla.jpg" 
+						alt="activity image" class="img-responsive" >
+					</div>
+			</div>
+			<!-- activity 3 -->
+					<div id="activity3" class="col-md-9">
+
+					<h3>Ermita de la virgen del puerto</h3>
+					<div>
+						<p>I recommend you this place because from there you can see a spectacular view of the city and its surroundings. You must drive to a little church (or walk if you dare), beyond Plasencia’s hospital, and you can park in a parking site nearby.</p><p> Then you can walk on a lane surrounded by several cork trees, seeing at the bottom of the valley at your left (the West, because you are walking to the North) the highway to Salamanca. Some people take their Sunday meal and eat in the country. You can do the same.</p>
+						<img center style="margin:auto;" src="images/plasencia_ermita.jpg" 
+						alt="activity image" class="img-responsive" >
+					</div>
+
+			</div>
+
+			<!-- activity 4 -->
+					<div id="activity4" class="col-md-9">
+
+					<h3 >A track in Valcorchero</h3>
+					<div>
+						<p>If you like trecking you can follow this <a href='http://www.wikirutas.es/rutas/versionimprimible.asp?id=1366' target="_blank">way</a></p>
+						<img center style="margin:auto;"  src="images/valcorchero.jpg" 
+						alt="activity image" class="img-responsive" >
+					</div>
+
+			</div>
+
+			<!-- activity 5 -->
+				<div id="activity5" class="col-md-9">
+
+					<h3>La Chopera</h3>
+					<div>
+						<p>If you take the road of the valley (that goes up  along the river Jerte towards Ávila), driving just 2 km from Plasencia,   you’ll find, at the left,  a nice place near the river with a camping site and a restaurant where you can take your dinner if you want. I love swimming in this place, although the water is rather cold.</p>
+						<img center style="margin: 5px auto;" src="images/el-chorrito.jpg" 
+						alt="activity image" class="img-responsive" >
+						<p>I like going in the afternoon before sunset, because I think at this time the water is not so cold. You can recommend your friends this camping site (<a href='http://www.campinglachopera.com/' target="_blank">Camping La Chopera</a>). I like it very much.</p>
+					</div>
+
 			</div>
 			
-			<div class="row" id="other_downloads">
-				<h3 class="col-lg-12">Otros datos <!-- ***  --></h3>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<a href="***" class="thumbnail">
-						<img src=***" alt="***">
-						<p class="hideOverflow">
-							<abbr title="***"><!-- *** Descripcion --></abbr>
-						</p>
-					</a>
-				</div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<a href="***" class="thumbnail">
-						<img src="***" alt="***">
-						<p><!-- *** Descripcion --></p>
-					</a>
-				</div>
-				<div class="col-xs-6 col-sm-3 col-md-3">                  
-					<a href="***" class="thumbnail">
-						<img src="***" alt="***">
-						<p><!-- *** Descripcion --></p>
-					</a>                  
-				</div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="***" alt="***">
-						<p><!-- *** Descripcion --></p>
-					</a>
-				</div>
-			</div>
+			
 		</div>
 		<!-- Pie de página -->
 		<footer class="container">
@@ -127,11 +150,11 @@
 				<!-- ***Redes sociales -->
 				<div class="col-md-3">
 					<div style="text-align: left">
-						<a rel="nofollow" href="***" target="_parent">
+						<a rel="nofollow" href="***"  target="_blank">
 							<img src="images/facebook.png" alt="Follow us on Facebook">
 						</a>
-						<a rel="nofollow" href="***"><img src="images/twitter.png" alt="Follow us onTwitter"></a>
-						<a rel="nofollow" href="***"><img src="images/rss.png" alt="RSS feeds"></a>
+						<a rel="nofollow" href="***"  target="_blank"><img src="images/twitter.png" alt="Follow us onTwitter"></a>
+						<a rel="nofollow" href="***"  target="_blank"> <img src="images/rss.png" alt="RSS feeds"></a>
 					</div>
 				</div>				
 			</div>

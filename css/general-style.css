@@ -130,6 +130,16 @@ div#activity{
     padding: 4px;
 }
 
+.button-list{
+	border:0px;
+	background:none;
+	color: #89be5c;
+}
+
+.button-list:focus{
+	border:0px;
+}
+
 /* mobile styles */
 @media only screen and (max-width: 480px) {
 	h2 { margin-bottom: 5px; }
