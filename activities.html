@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Activities in Castillo and Plasencia" />
 	<meta name="keywords" content="activities plasencia, activities castillo, activities extremadura,
-			 castillo, plasencia, extremadura"/>
+	castillo, plasencia, extremadura"/>
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 	<title>Activities</title>
@@ -17,53 +17,54 @@
 <body>
 	<div id="main_container">
 		<div class="container" id="preview">
-			<div class="header">
-				<a href="#">
-					<img src="images/logo.gif" alt="Castillo de Hurdes" class="class-logo">
-				</a>
-      		<form  action="#" method="get" class="navbar-form pull-right" role="search">
-      				<div class="form-group">
-      					<input type="text" class="form-control" placeholder="Your text" id="keyword" name="keyword">
-      				</div>
-      				<button type="submit" class="btn btn-default" name="search">Search...</button>
-      			</form>
+			<div class="header row">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#">
+						<img src="images/logo.gif" alt="Castillo de Hurdes" class="class-logo img-responsive">
+					</a>
+				</div>
+				<form  action="#" method="get" class="navbar-form pull-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Palabras a buscar" id="keyword" name="keyword">
+					</div>
+					<button type="submit" class="btn btn-default" name="search">Buscar</button>
+				</form>
 			</div>
 			<!-- *** Imagen Portada --><img src="images/pueblo-header.jpg" alt="header image" class="class-header-img img-responsive cleaner">
 			<div class="navbar class-nav" id="navbar">
 				<div class="navbar-header">		          	
-		          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-		        </div>
-      			<div class="navbar-collapse collapse">
-			        <ul class="nav nav-justified">
-			          <li><a href="index.html">Home</a></li>
-	                  <li><a href="about.html">About us</a></li>
-					  <li class="active"><a href="activities.html">Activities</a></li>
-			          <li><a href="place.html">Location</a></li>
-			          <li><a href="postcard.html">Postcard</a></li>
-					  <li><a href="contact.html">Contact</a></li>
-			        </ul>
-		      	</div> 
-	      	</div>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav nav-justified">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="town.html">The Town</a></li>
+						<li class="active"><a href="activities.html">Activities</a></li>
+						<li><a href="postcard.html">Postcard</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div> 
+			</div>
 			<div class="row">
 				
 				<div class="col-md-3"> 
 					<div class="preview_footer_container">				
-			                       
-                        <div class="footer_item section_box col-xs-12 col-sm-4 col-md-12">
+
+						<div class="footer_item section_box col-xs-12 col-sm-4 col-md-12">
 							<!-- *** -->
 							<h3>Select an activity</h3>
 							<h4>Castillo</h4>
-                            <ul class="sidebar_menu">
-                                <li><a onclick="loadActivity(1)">Swim or walk</a></li>
+							<ul class="sidebar_menu">
+								<li><a onclick="loadActivity(1)">Swim or walk</a></li>
 							</ul>
 							<h4>Plasencia</h4>
-                            <ul class="sidebar_menu">
-                                <li><a onclick="loadActivity(2)">Parque de la isla</a></li>
+							<ul class="sidebar_menu">
+								<li><a onclick="loadActivity(2)">Parque de la isla</a></li>
 								<li><a onclick="loadActivity(3)">Ermita de la virgen del puerto</a></li>
 								<li><a onclick="loadActivity(4)">A track in Valcorchero</a></li>
 								<li><a onclick="loadActivity(5)">La Chopera</a></li>
@@ -73,15 +74,15 @@
 
 				</div>
 				<div class="col-md-9">
-                
+
 					<h3 id="title-activity"><!--Titulo de la actividad --> Activity</h3>
 					<!-- *** -->
 					<div id="activity">
 						<p id="data-activity">In Castillo you can swim in the river or go walking in the wild forests.</p>
 						<img center style="margin:auto;" id="img-activity" src="images/el-chorrito.jpg" 
-                        	alt="activity image" class="img-responsive" >
+						alt="activity image" class="img-responsive" >
 					</div>
-	                    			
+
 				</div>
 			</div>
 			
@@ -91,8 +92,8 @@
 					<a href="***" class="thumbnail">
 						<img src=***" alt="***">
 						<p class="hideOverflow">
-	                    	<abbr title="***"><!-- *** Descripcion --></abbr>
-	                    </p>
+							<abbr title="***"><!-- *** Descripcion --></abbr>
+						</p>
 					</a>
 				</div>
 				<div class="col-xs-6 col-sm-3 col-md-3">
@@ -120,15 +121,15 @@
 			<div class="credit row">
 				<div class="col-md-6 col-md-offset-3">
 					<div id="class_footer">
-						 <a href="#"><!-- ***Nombre del lugar --></a>Copyright © 2017
+						<a href="#"><!-- ***Nombre del lugar --></a>Copyright © 2017
 					</div>
 				</div>
 				<!-- ***Redes sociales -->
 				<div class="col-md-3">
 					<div style="text-align: left">
 						<a rel="nofollow" href="***" target="_parent">
-                        	<img src="images/facebook.png" alt="Follow us on Facebook">
-                        </a>
+							<img src="images/facebook.png" alt="Follow us on Facebook">
+						</a>
 						<a rel="nofollow" href="***"><img src="images/twitter.png" alt="Follow us onTwitter"></a>
 						<a rel="nofollow" href="***"><img src="images/rss.png" alt="RSS feeds"></a>
 					</div>
@@ -137,8 +138,8 @@
 		</footer>	
 	</div>
 	<script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/script-general.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script-general.js"></script>
 	<script type="text/javascript" src="js/activities.js"></script>
 
 </body>
