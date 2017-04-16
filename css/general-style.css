@@ -8,8 +8,12 @@ h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; margin-bottom: 20px; }
 
 .class-logo { margin: 12px;}
 
-.thumbnail { border-radius: 0px; display: inline-block;	-webkit-transition: none; transition: none; }
+.class-header-img{
+	max-height: 435px;
+}
 
+.thumbnail { border-radius: 0px; display: inline-block;	-webkit-transition: none; transition: none; }
+.thumbnail p {text-align: center;}
 .btn { border-radius: 0px; }
 
 .btn-primary {	background-color: #89be5c; border-color: #76b349; }
@@ -33,7 +37,7 @@ h1, h2, h3, h4, h5, h6 { font-family: Georgia, serif; margin-bottom: 20px; }
 .navbar-form { margin-left: 2px; margin-right: 2px; margin-top: 25px; }
 a { color: #76b349; }
 a:hover, a:focus {	color: #89be5c;	text-decoration: underline; }
-a.thumbnail:hover, a.thumbnail:focus { border-color: #6F0015; }
+div.thumbnail:hover, div.thumbnail:focus { border-color: #6F0015; }
 a p { margin-top: 10px; }
 
 iframe, object, embed {	width: 100%; border: none; margin-bottom: 20px; }
@@ -41,6 +45,10 @@ iframe, object, embed {	width: 100%; border: none; margin-bottom: 20px; }
 .left-inner-addon { position: relative; }
 .left-inner-addon input, .left-inner-addon textarea { padding-left: 30px; }
 .left-inner-addon span { position: absolute; padding: 8px 12px; }
+
+.visual img{
+	margin: 0 auto;
+}
 
 .form-control { border-radius: 0px; }
 
@@ -69,7 +77,6 @@ footer a:hover { color: #FFFF00; }
 
 .credit { padding: 15px 0px; background: #89be5c; }
 
-#other_downloads { max-width: 920px; margin: 0 auto; }
 #other_downloads h3 { padding-left: 20px; padding-bottom: 10px; }
 
 #thumbnails_container, #other_downloads { max-width: 920px; margin: 0 auto; }
@@ -128,6 +135,20 @@ div#activity{
     background-color: #F8F5F5;
     border: 1px solid #ddd;
     padding: 4px;
+}
+
+.button-list{
+	border:0px;
+	background:none;
+	color: #89be5c;
+}
+
+.button-list:focus {
+	outline:0px;
+}
+
+#hidden{
+	display: none;
 }
 
 /* mobile styles */
