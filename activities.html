@@ -13,18 +13,20 @@
 	<link href="css/general-style.css" rel="stylesheet" type="text/css">
 	<link href="css/slider.css" rel="stylesheet" type="text/css">
     <link rel="canonical" href="https://castillodehurdes.000webhostapp.com/activities.html"/>
-
 </head>
 <body dir="ltr">
+    <a href="#menu" class="invisible">Go To Menu</a>
+    <a href="#main-content" class="invisible">Go To the Main Content</a>
 	<div id="main_container">
 		<div class="container" id="preview">
 			<div class="header row">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
 					<a href="index.html">
-						<img src="images/logo.gif" alt="Castillo de Hurdes" class="class-logo img-responsive" longdesc="***.html">
+						<img src="images/logo.gif" alt="Castillo de Hurdes" class="class-logo img-responsive">
 					</a>
 				</div>
 				<form  action="#" method="get" class="navbar-form pull-right" role="search">
+                    <label for="keyword">Search</label>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Text to search" id="keyword" name="keyword">
 					</div>
@@ -38,23 +40,24 @@
                     <div id="slider-box">
                         <div class="slider-element">
                             <div class="element">
-                                <img src="images/slider/hurdes-header-1.jpg" alt="slider image Hurdes 1" class="class-header-img img-responsive cleaner" longdesc="***.html">
+                                <img src="images/slider/hurdes-header-1.jpg" alt="slider image Hurdes 1" class="class-header-img img-responsive cleaner">
                             </div>
                         </div>
                         <div class="slider-element">
                             <div class="element">
-                                <img src="images/slider/hurdes-header-2.jpg" alt="slider image Hurdes 2" class="class-header-img img-responsive cleaner" longdesc="***.html">
+                                <img src="images/slider/hurdes-header-2.jpg" alt="slider image Hurdes 2" class="class-header-img img-responsive cleaner">
                             </div>
                         </div>
                         <div class="slider-element">
                             <div class="element">
-                                <img src="images/slider/hurdes-header-3.jpg" alt="slider image Hurdes 3" class="class-header-img img-responsive cleaner" longdesc="***.html">
+                                <img src="images/slider/hurdes-header-3.jpg" alt="slider image Hurdes 3" class="class-header-img img-responsive cleaner">
                             </div>                            
                         </div>
                     </div>
                 </div>
             </section> 
 			<div class="navbar class-nav" id="navbar">
+                <a name="menu"></a>
 				<div class="navbar-header">		          	
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -65,12 +68,12 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav nav-justified">
-						<li><a accesskey="h" href="index.html"><u>H</u>ome</a></li>
-						<li><a accesskey="t" href="town.html">The <u>T</u>own</a></li>
-						<li class="active"><a accesskey="a" href="activities.html"><u>A</u>ctivities</a></li>
-						<li><a accesskey="g" href="gallery.html"><u>G</u>allery</a></li>
-						<li><a accesskey="p" href="postcard.html"><u>P</u>ostcard</a></li> 
-						<li><a accesskey="c" href="contact.html"><u>C</u>ontact</a></li>
+						<li class="active"><a accesskey="h" href="index.html"><span class="underlined">H</span>ome</a></li>
+						<li><a accesskey="t" href="town.html">The <span class="underlined">T</span>own</a></li>
+						<li><a accesskey="a" href="activities.html"><span class="underlined">A</span>ctivities</a></li>
+						<li><a accesskey="g" href="gallery.html"><span class="underlined">G</span>allery</a></li>
+						<li><a accesskey="p" href="postcard.html"><span class="underlined">P</span>ostcard</a></li> 
+						<li><a accesskey="c" href="contact.html"><span class="underlined">C</span>ontact</a></li>
 					</ul>
 				</div> 
 			</div>
@@ -79,20 +82,31 @@
 				<a href="index.html" title="Go to home"  itemprop="url">	<span itemprop="title" >Home</span>	</a>   
 				<span> > </span>	<strong>Activities</strong>  
 			</span>
+            <a name="main-content"></a>
 			<div class="row">
-				
+				<!-- activity Intro -->
+				<div id="activity0"  class="col-md-9">
+					<h1>Our activities!</h1>
+					<div>
+						<p>We offer a bunch of activities you may enjoy. As Castillo's might be limited, we also have added some in Plasencia (the nearest big city).</p>
+						<img center style="margin:auto;" src="images/gallery/castillo.jpg" alt="activity image" class="img-responsive">
+					</div>
+
+				</div>
+
 				<div class="col-md-3"> 
 					<div class="preview_footer_container">				
-
 						<div class="footer_item section_box col-xs-12 col-sm-4 col-md-12">
-							<h3>Select an activity</h3>
-							<h4>Castillo</h4>
+                            <!--<p class="look-like-header3">Select an activity</p>-->
+                            <h2 class="look-like-header3">Select an activity</h2>
+							<!--<p class ="look-like-header4">Castillo</p>-->
+                            <h3 class="look-like-header4">Castillo</h3>
 							<ul class="sidebar_menu">
 								<li id="hidden"><input id="_activity0" class="button-list" type="button" value="Our activities!" onclick="loadActivity('activity0')" ></li>
 								<li><input id="_activity1" class="button-list" type="button" value="Swimming!" onclick="loadActivity('activity1')" ></li>
 								<li><input id="_activity2" class="button-list" type="button" value="Go for a walk!" onclick="loadActivity('activity2')" ></li>
 							</ul>
-							<h4>Plasencia</h4>
+                           <h3 class="look-like-header4">Plasencia</h3>
 							<ul class="sidebar_menu">
 								<li><input id="_activity3" class="button-list" type="button" value="Parque de la isla" onclick="loadActivity('activity3')" ></li>
 								<li><input id="_activity4" class="button-list" type="button" value="Ermita de la virgen del puerto" onclick="loadActivity('activity4')" ></li>
@@ -105,27 +119,18 @@
 
 				</div>
 
-				<!-- activity Intro -->
-				<div id="activity0"  class="col-md-9">
-					<h3>Our activities!</h3>
-					<div>
-						<p>We offer a bunch of activities you may enjoy. As Castillo's might be limited, we also have added some in Plasencia (the nearest big city).</p>
-						<img center style="margin:auto;" src="images/gallery/castillo.jpg" alt="activity image" class="img-responsive" longdesc="***.html">
-					</div>
-
-				</div>
-
+				
 				<!-- activity 1 -->
 				<div id="activity1"  class="col-md-9">
 
-					<h3>Swimming!</h3>
+					<h5 class="look-like-header3">Swimming!</h5>
 					<div>
 						<p>In the summer a little barrage is prepared in the village’s river (río Esperaban) to make a big swimming pool that you mustn’t miss.</p>
 
 						<p>The water is mild tempered and it hasn’t any chlorine at all.</p>
 
 						<p>You can suntan if you want, be careful with sunburning. It is a perfect place to spend the hottest hours of the day.</p>
-						<img center style="margin:auto;" src="images/gallery/pool1.jpg" alt="activity image" class="img-responsive" longdesc="***.html">
+						<img center style="margin:auto;" src="images/gallery/pool1.jpg" alt="activity image" class="img-responsive">
 					</div>
 
 				</div>
@@ -133,29 +138,29 @@
 				<!-- activity 2 -->
 				<div id="activity2"  class="col-md-9">
 
-					<h3>Go for a walk!</h3>
+					<h5 class="look-like-header3">Go for a walk!</h5>
 					<div>
 						<p>Are you ready to get lost in the forest? Don't worry, the paths are clear and it's really difficult to lost the track!</p>
-						<img center style="margin:auto;" src="images/gallery/walk3.jpg" alt="activity image" class="img-responsive" longdesc="***.html">
+						<img center style="margin:auto;" src="images/gallery/walk3.jpg" alt="activity image" class="img-responsive">
 					</div>
 			</div>
 
 				<!-- activity 3 -->
 				<div id="activity3"  class="col-md-9">
 
-					<h3>Parque de la isla</h3>
+					<h5 class="look-like-header3">Parque de la isla</h5>
 					<div>
 						<p>Visit  The Island’s park in Plasencia. Near the Jerte there is a beautiful park. In summer it is  mild tempered because of the high trees and the river. Here you can swim in a free swimming pool in the river’s water. You have a couple of places to have a drink or some food if you want.</p>
-						<img center style="margin:auto;" src="images/gallery/plasencia-isla.jpg" alt="activity image" class="img-responsive" longdesc="***.html">
+						<img center style="margin:auto;" src="images/gallery/plasencia-isla.jpg" alt="activity image" class="img-responsive">
 					</div>
-			</div>
+			 </div>
 			<!-- activity 4 -->
 					<div id="activity4" class="col-md-9">
 
-					<h3>Ermita de la virgen del puerto</h3>
+					<h5 class="look-like-header3">Ermita de la virgen del puerto</h5>
 					<div>
 						<p>I recommend you this place because from there you can see a spectacular view of the city and its surroundings. You must drive to a little church (or walk if you dare), beyond Plasencia’s hospital, and you can park in a parking site nearby.</p><p> Then you can walk on a lane surrounded by several cork trees, seeing at the bottom of the valley at your left (the West, because you are walking to the North) the highway to Salamanca. Some people take their Sunday meal and eat in the country. You can do the same.</p>
-						<img center style="margin:auto;" src="images/gallery/plasencia_ermita.jpg" alt="activity image" class="img-responsive" longdesc="***.html">
+						<img center style="margin:auto;" src="images/gallery/plasencia_ermita.jpg" alt="activity image" class="img-responsive">
 					</div>
 
 			</div>
@@ -175,13 +180,12 @@
 			<!-- activity 5 -->
 				<div id="activity5" class="col-md-9">
 
-					<h3>La Chopera</h3>
+					<h5 class="look-like-header3">La Chopera</h5>
 					<div>
 						<p>If you take the road of the valley (that goes up  along the river Jerte towards Ávila), driving just 2 km from Plasencia,   you’ll find, at the left,  a nice place near the river with a camping site and a restaurant where you can take your dinner if you want. I love swimming in this place, although the water is rather cold.</p>
-						<img center style="margin: 5px auto;" src="images/gallery/la-chopera.jpg" alt="activity image" class="img-responsive" longdesc="***.html">
+						<img center style="margin: 5px auto;" src="images/gallery/la-chopera.jpg" alt="activity image" class="img-responsive">
 						<p>I like going in the afternoon before sunset, because I think at this time the water is not so cold. You can recommend your friends this camping site (<a href='http://www.campinglachopera.com/' target="_blank">Camping La Chopera</a>). I like it very much.</p>
 					</div>
-
 			</div>
 			
 			

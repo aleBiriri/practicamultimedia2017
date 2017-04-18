@@ -198,3 +198,26 @@ div#activity{
 	#thumbnails_container .col-xs-4, #thumbnails_container .col-sm-3, #thumbnails_container .col-md-3 { padding-left: 10px; padding-right: 10px; }	
 	.preview_footer_container {	margin-top: 66px; }
 }
+.underlined {
+    text-decoration: underline;
+}
+
+.look-like-header3{
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+    font-size: 24px !important; 
+    font-weight: 500;
+    line-height: 1.1 !important;
+    color: inherit;
+    text-align: left;
+}
+
+.look-like-header4{
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+    font-size: 18px !important; 
+    font-weight: 500;
+    line-height: 1.1 !important;
+    color: inherit;
+    text-align: left;
+}
