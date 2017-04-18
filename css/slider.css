@@ -13,10 +13,10 @@ input[name="slider-select-element"] {
 }
 
 #slider-box {
-    -moz-animation: autoSlider 12s infinite linear;
-    -o-animation: autoSlider 12s infinite linear;
-    -webkit-animation: autoSlider 12s infinite linear;
-    animation: autoSlider 12s infinite linear;
+    -moz-animation: ourSlider 12s infinite linear;
+    -o-animation: ourSlider 12s infinite linear;
+    -webkit-animation: ourSlider 12s infinite linear;
+    animation: ourSlider 12s infinite linear;
 
     -webkit-transition: all 1s ease-in;
     -moz-transition: all 1s ease-in;
@@ -45,7 +45,7 @@ input[name="slider-select-element"] {
     width: 33.333%;
 }
 
-@-moz-keyframes autoSlider {
+@-moz-keyframes ourSlider {
     0% {
         margin-left: 0;
     }
@@ -75,7 +75,7 @@ input[name="slider-select-element"] {
     }
 }
 
-@-webkit-keyframes autoSlider {
+@-webkit-keyframes ourSlider {
     0% {
         margin-left: 0;
     }
@@ -105,7 +105,7 @@ input[name="slider-select-element"] {
     }
 }
 
-@keyframes autoSlider {
+@keyframes ourSlider {
     0% {
         margin-left: 0;
     }

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://castillodehurdes.000webhostapp.com/sitemap.xml
