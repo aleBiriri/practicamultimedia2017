@@ -92,28 +92,28 @@
 						<section class="col-xs-12 col-md-12">
 							<h2>Postcard form</h2>
 							<p>Want to surprise a friend? Do you want a little souvenir of <strong>Castillo</strong>? Don't hesitate and send a postcard!</p>
-							<form action="#" method="post" id="send-postcard-form">
+							<form action="php/mail.php" method="post" id="send-postcard-form">
 								<div class="form-group">
 									<label for="source">From: </label>
-									<input type="text" class="form-control" id="source" 
+									<input name="source" type="text" class="form-control" id="source" 
 									placeholder="Your name" required>
 								</div>
 
 								<div class="form-group">
 									<label for="destination">To: </label>
-									<input type="text" class="form-control" id="destination" 
+									<input name="destination" type="text" class="form-control" id="destination" 
 									placeholder="Destination" required>
 								</div>
 
 								<div class="form-group">
 									<label for="email">E-mail</label>
-									<input type="email" class="form-control" id="email"
+									<input name="email" type="email" class="form-control" id="email"
 									placeholder="email to send the postal" required>
 								</div>
 
 								<div class="form-group">
 									<label for="message">Leave a message</label>
-									<textarea id="message" class="form-control"  placeholder="Your text here" maxlength="300" rows="3"></textarea>
+									<textarea name="message" id="message" class="form-control"  placeholder="Your text here" maxlength="300" rows="3"></textarea>
 								</div>
 
 								<fieldset>
