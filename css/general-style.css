@@ -109,18 +109,33 @@ footer a:hover { color: #FFFF00; }
 #download_box { float: right; padding-top: 10px; }
 
 .cleaner { clear: both }
-
-label.select-postcard > input{ /* HIDE RADIO */
-  visibility: hidden; /* Makes input not-clickable */
-  position: absolute; /* Remove input from document flow */
+/*
+label.select-postcard > input{ /* HIDE RADIO 
+  visibility: hidden; /* Makes input not-clickable 
+  position: absolute; /* Remove input from document flow 
 }
 
-label.select-postcard > input + img{ /* IMAGE STYLES */
+label.select-postcard > input + img{ /* IMAGE STYLES 
   cursor:pointer;
   border:2px solid transparent;
 }
 
-label.select-postcard > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+label.select-postcard > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES 
+  border:2px solid #f00;
+}
+*/
+
+div.select-postcard > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+div.select-postcard > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+ .postcard:checked + label > img { /* (RADIO CHECKED) IMAGE STYLES */
   border:2px solid #f00;
 }
 
@@ -222,4 +237,7 @@ div#activity{
     text-align: left;
 }
 
-
+.social-network{
+    width: 37px;
+    height: 37px;
+}
