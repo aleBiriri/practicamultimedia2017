@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="Send a postcard to a friend to recommend Castillo de Hurdes" />
@@ -12,7 +12,6 @@
 	<link href="css/general-style.css" rel="stylesheet" type="text/css">
 	<link href="css/slider.css" rel="stylesheet" type="text/css">
     <link rel="canonical" href="https://castillodehurdes.000webhostapp.com/postcard.html"/>
-    
 </head>
 <body dir="ltr">
     <a href="#menu" class="invisible">Go To Menu</a>
@@ -78,72 +77,63 @@
 				</div> 
 			</div>
             <a name="main-content"></a>
-	 		<div id="thumbnails_container"></div>
 			<div class="row">
-				<!-- Breadcrumbs -->
-			<span style="margin-left:5px;" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-				<a href="index.html" title="Go to home" itemprop=“url">	<span itemprop=“title">Home</span>	</a>
-					<span> > </span> <strong>Postcard</strong>
+                    <!-- Breadcrumbs -->
+                <span style="margin-left:5px;" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <a href="index.html" title="Go to home" itemprop="url"><span itemprop="title"> Home</span></a>
+                    <span> > </span> <strong>Postcard</strong>
+                </span> 
 			</div>
 			<div class="row" id="thumbnails_container">
 		
 				<div class="col-md-12">
 					<div class="row">
 						<section class="col-xs-12 col-md-12">
-							<h2>Postcard form</h2>
+							<h1>Postcard form</h1>
 							<p>Want to surprise a friend? Do you want a little souvenir of <strong>Castillo</strong>? Don't hesitate and send a postcard!</p>
-							<form action="#" method="post" id="send-postcard-form">
+							<form action="php/mail.php" method="post" id="send-postcard-form">
 								<div class="form-group">
 									<label for="source">From: </label>
-									<input type="text" class="form-control" id="source" 
+									<input name="source" type="text" class="form-control" id="source" 
 									placeholder="Your name" required>
 								</div>
 
 								<div class="form-group">
 									<label for="destination">To: </label>
-									<input type="text" class="form-control" id="destination" 
+									<input name="destination" type="text" class="form-control" id="destination" 
 									placeholder="Destination" required>
 								</div>
 
 								<div class="form-group">
 									<label for="email">E-mail</label>
-									<input type="email" class="form-control" id="email"
+									<input name="email" type="email" class="form-control" id="email"
 									placeholder="email to send the postal" required>
 								</div>
 
 								<div class="form-group">
 									<label for="message">Leave a message</label>
-									<textarea id="message" class="form-control"  placeholder="Your text here" maxlength="300" rows="3"></textarea>
+									<textarea name="message" id="message" class="form-control"  placeholder="Your text here" maxlength="300" rows="3"></textarea>
 								</div>
 
 								<fieldset>
 									<legend>Select the postcard:</legend>
 									<div class="row">
-										<div class="col-xs-6 col-sm-3 col-md-3">
-											<label  class="select-postcard">
-												<input  type="radio" name="postcard" value="postcard 1" />
-												<img src="images/postal1.jpg" alt="select postcard 1" class="img-responsive">
-											</label>
+										<div class="col-xs-6 col-sm-3 col-md-3 select-postcard">
+                                            <input class="postcard" type="radio" id="postcard1" name="postcard" value="postcard 1" />
+											<label for= "postcard1"><img src="images/postal1.jpg" alt="select postcard 1" class="img-responsive"></label>
 										</div>
-										<div class="col-xs-6 col-sm-3 col-md-3">
-											<label  class="select-postcard">
-												<input  type="radio" name="postcard" value="postcard 2" />
-												<img src="images/postal2.jpg" alt="select postcard 2" class="img-responsive">
-											</label>
+                                        <div class="col-xs-6 col-sm-3 col-md-3 select-postcard">
+                                            <input class="postcard"  type="radio" id="postcard2" name="postcard" value="postcard 2" />
+											<label for= "postcard2"><img src="images/postal2.jpg" alt="select postcard 2" class="img-responsive"></label>
 										</div>
-										<div class="col-xs-6 col-sm-3 col-md-3">
-											<label  class="select-postcard">
-												<input  type="radio" name="postcard" value="postcard 3" />
-												<img src="images/postal3.jpg" alt="select postcard 3" class="img-responsive">
-											</label>
+                                        <div class="col-xs-6 col-sm-3 col-md-3 select-postcard">
+                                            <input class="postcard"  type="radio" id="postcard3" name="postcard" value="postcard 3" />
+											<label for= "postcard3"><img src="images/postal3.jpg" alt="select postcard 3" class="img-responsive"></label>
 										</div>
-										<div class="col-xs-6 col-sm-3 col-md-3">
-											<label  class="select-postcard">
-												<input  type="radio" name="postcard" value="postcard 4" />
-												<img src="images/postal4.jpg" alt="select postcard 4" class="img-responsive">
-											</label>
+                                        <div class="col-xs-6 col-sm-3 col-md-3 select-postcard">
+                                            <input class="postcard"  type="radio" id="postcard4" name="postcard" value="postcard 4" />
+											<label for= "postcard4"><img src="images/postal4.jpg" alt="select postcard 4" class="img-responsive"></label>
 										</div>
-
 									</div>
 								</fieldset>
 								<button type="submit" class="btn btn-primary right" value="submit">Send postcard</button>
@@ -173,7 +163,7 @@
 									</a> 
 									<a href="https://twitter.com/CastilloHurdes" target="_blank"><img src="images/twitter.png" alt="Follow us on Twitter" ></a>
                                     
-									<a href="https://www.instagram.com/castillodehurdes/" target="_blank"><img src="images/instagram.png" alt="Follow us on Instagram"  width="37px" height="37px"></a>
+									<a href="https://www.instagram.com/castillodehurdes/" target="_blank"><img class="social-network" src="images/instagram.png" alt="Follow us on Instagram"></a>
 								</div>
 							</div>				
 			</div>
