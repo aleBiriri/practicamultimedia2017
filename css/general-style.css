@@ -126,7 +126,7 @@ label.select-postcard > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES
 */
 
 div.select-postcard > input{ /* HIDE RADIO */
-  visibility: hidden; /* Makes input not-clickable */
+ visibility: hidden; /*  Makes input not-clickable */
   position: absolute; /* Remove input from document flow */
 }
 
