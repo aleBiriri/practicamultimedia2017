@@ -246,3 +246,21 @@ div#activity{
     width: 37px;
     height: 37px;
 }
+
+.breadcrumbs{
+	margin-left:5px;
+}
+
+.main_title{
+	padding-left: 15px;
+}
+
+.map{
+	border: 0;
+	height: 350px;
+}
+
+.ig{
+	width:37px; 
+	height:37px;
+}
