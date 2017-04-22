@@ -242,10 +242,6 @@ div#activity{
     height: 100%;
     overflow: auto;
 }
-.social-network{
-    width: 37px;
-    height: 37px;
-}
 
 .breadcrumbs{
 	margin-left:5px;
@@ -257,10 +253,6 @@ div#activity{
 
 .map{
 	border: 0;
-	height: 350px;
+	min-height: 350px;
 }
 
-.ig{
-	width:37px; 
-	height:37px;
-}
