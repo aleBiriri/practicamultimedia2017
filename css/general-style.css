@@ -175,7 +175,7 @@ div#activity{
 	#thumbnails_container { margin-left: 10px; margin-right: 10px; padding-left: 5px; padding-right: 5px; }	
 	#thumbnails_container .col-xs-4, #thumbnails_container .col-sm-3, #thumbnails_container .col-md-3 { padding-left: 5px; padding-right: 5px; }	
 	.section_box { height: auto; width: 100%; max-width: none; min-height: 1px; }
-	#class_footer { margin-bottom: 5px; }
+	#class_footer { margin-bottom: 20px; }
 }
 
 /* tablet styles */
@@ -254,5 +254,9 @@ div#activity{
 .map{
 	border: 0;
 	min-height: 350px;
+}
+
+ul{
+    list-style: none;
 }
 
