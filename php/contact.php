@@ -18,7 +18,7 @@
     $mensaje .= "El contenido enviado es: ". $message . " \r\n"; 
     $mensaje .= "Enviado el " . date('d/m/Y', time()); 
 
-    $asunto = $nombre . ' sends you a postcard'; 
+    $asunto = $nombre . ' sends you a request'; 
 
     if (mail($emailPractica, $asunto, $mensaje,$headers,"-f".$mail)) {
         echo ("The email was send.");
