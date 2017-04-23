@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Contact page for send feedback about Castillo de Hurdes village" />
 	<meta name="keywords" content="contact, Castillo, Plasencia, Extremadura, Castillo de Hurdes, Tourism"/>
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=1.0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 	<title>Castillo de Hurdes - Contact us</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -20,9 +20,9 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 <body dir="ltr">
-	<a href="#menu" class="invisible">Go To Menu</a>
-	<a href="#main-content" class="link-invisible">Go To the Main Content</a>
-	<div id="main_container">
+	<div id="main_container" role="main">
+        <a href="#menu" class="link-invisible">Go To Menu</a>
+		<a href="#main-content"  class="link-invisible">Go To the Main Content</a>
 		<div class="container" id="home">
 			<div class="header row">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
@@ -71,7 +71,7 @@
 						<span class="icon-bar"></span>
 					</button>
 				</div>
-				<div class="navbar-collapse collapse">
+				<div class="navbar-collapse collapse" role="navigation">
 					<ul class="nav nav-justified">
 						<li><a accesskey="h" href="index.html"><span class="underlined">H</span>ome</a></li>
 						<li><a accesskey="t" href="town.html">The <span class="underlined">T</span>own</a></li>
@@ -127,7 +127,8 @@
 				</form>	
 			</div> <!-- row -->
 
-		</div>
+		  </div>
+        </div>
 		<!-- Pie de página -->
 		<footer class="container">
 						<div class="credit row">
@@ -159,7 +160,6 @@
 							</div>				
 						</div>
 					</footer>
-	</div>
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Information about Castillo de Hurdes: description, history, location, other villages, videos and audios and opinions from tourists" />
 	<meta name="keywords" content="about, Castillo, Plasencia, Extremadura, Castillo de Hurdes, Las Hurdes, Tourism, Cáceres"/>
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=1.0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 	<title>Castillo de Hurdes - The Town</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -20,9 +20,9 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 <body dir="ltr">
-	<a href="#menu" class="link-invisible">Go To Menu</a>
+	<div id="main_container" role="main">
+        <a href="#menu" class="link-invisible">Go To Menu</a>
 	<a href="#main-content" class="link-invisible">Go To the Main Content</a>
-	<div id="main_container">
 		<div class="container" id="home">
 			<div class="header row">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
@@ -72,7 +72,7 @@
 					</button>
 				</div>
 
-				<div class="navbar-collapse collapse">
+				<div class="navbar-collapse collapse" role="navigation">
 					<ul class="nav nav-justified">
 						<li><a accesskey="h" href="index.html"><span class="underlined">H</span>ome</a></li>
 						<li class="active"><a accesskey="t" href="town.html">The <span class="underlined">T</span>own</a></li>
@@ -182,9 +182,9 @@
 				
 			</div>
 			
+		</div>	
 		</div>
-		
-		
+
 		<!-- Pie de página -->
 					<footer class="container">
 						<div class="credit row">
@@ -195,7 +195,7 @@
 							</div>
                             <div class="col-md-4">
                                 <ul id="content-table"  class="list-unstyled">
-                                    <li class="active"><a accesskey="h" href="index.html"><span class="underlined">H</span>ome</a></li>
+                                    <li class="li-active"><a accesskey="h" href="index.html"><span class="underlined">H</span>ome</a></li>
                                     <li><a accesskey="t" href="town.html">The <span class="underlined">T</span>own</a></li>
                                     <li><a accesskey="a" href="activities.html"><span class="underlined">A</span>ctivities</a></li>
                                     <li><a accesskey="g" href="gallery.html"><span class="underlined">G</span>allery</a></li>
@@ -216,8 +216,7 @@
 							</div>				
 						</div>
 					</footer>
-	</div>
-
+	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script-general.min.js"></script>
